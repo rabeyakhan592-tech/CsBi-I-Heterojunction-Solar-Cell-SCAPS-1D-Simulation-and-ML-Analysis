@@ -244,10 +244,4 @@ The final simulated photovoltaic performance was:
 
 ---
 
-## Notes
 
-The values in this file were extracted from the published article. Numerical values that were only displayed graphically and not explicitly stated in the article text have not been reconstructed or estimated.
-
-For this reason, this file should be considered a **summary of reported SCAPS-1D results**, rather than the original raw SCAPS simulation output.
-
-The original SCAPS software files are not included in this repository.
