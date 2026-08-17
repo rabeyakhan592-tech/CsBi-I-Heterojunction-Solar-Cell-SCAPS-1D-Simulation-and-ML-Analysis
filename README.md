@@ -37,24 +37,20 @@ The table below highlights the specific physical parameters determined during th
 ```text
 CsBi3I10-Heterojunction-Solar-Cell/
 │
-├── README.md               # Project documentation
+├── README.md               
 │
 ├── scaps/
-│   ├── input-parameters/   # Input device configuration properties (.aps files/values)
-│   └── simulation-results/ # Raw or compiled numerical text exports from SCAPS
+│   ├── input-parameters/   
+│   └── simulation-results/ 
 │
 ├── data/
-│   └── ml-dataset.csv      # Compiled dataset containing the 200 data points
+│   └── ml-dataset.csv     
 │
 ├── machine-learning/
-│   ├── random-forest/      # Python scripts/notebooks for regression training
-│   └── shap-analysis/      # Global and local feature importance evaluation scripts
-│
-└── figures/                # Selected graphical visualizations and plots
-```
-*Note: The `scaps/` directory contains parameters and output data text files, not the proprietary executable software code for the SCAPS-1D application.*
+│   ├── random-forest/      
+│   └── shap-analysis/      
+└── figures/                
 
----
 
 ## Machine Learning Workflow
 
@@ -94,4 +90,4 @@ If you use the data, scripts, or configuration parameters hosted in this reposit
 
 ## Notes
 
-This repository is strictly intended to support scientific open-source reproducibility. The full-text published journal article is protected under publisher copyright and is **not** distributed within this repository. Only shareable computational inputs, simulation data logs, python analytics code, and descriptive assets are included.
+This repository is strictly intended to support scientific open-source reproducibility. The full-text published journal article is protected under publisher copyright and is **not** distributed within this repository. Only shareable computational inputs, simulation data logs, Python analytics code, and descriptive assets are included.
