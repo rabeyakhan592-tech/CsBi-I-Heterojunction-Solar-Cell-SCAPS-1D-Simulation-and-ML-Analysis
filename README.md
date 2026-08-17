@@ -19,14 +19,16 @@ Through rigorous computational tuning, this specific architecture achieved a **s
 ### Device Parameter Specifications
 The table below highlights the specific physical parameters determined during the final optimization phase:
 
+
 | Component / Parameter | Material / Layer | Optimized Value |
 | :--- | :--- | :--- |
 | **Semiconductor Layer** | GaAs | Included |
 | **HTL (Hole Transport Layer)** | NiO | Included |
-| **Perovskite Absorber** | CsBi₃I₁₀ | Thickness: 0.2 μm <br> Acceptor Density (\(N_A\)): \(1 \times 10^{14}\text{ cm}^{-3}\) |
-| **ETL (Electron Transport Layer)** | ZnSe | Thickness: 0.01 μm <br> Donor Density (\(N_D\)): \(5 \times 10^{17}\text{ cm}^{-3}\) |
+| **Perovskite Absorber** | CsBi₃I₁₀ | Thickness: 0.2 μm <br> Acceptor Density (N<sub>A</sub>): 1 × 10¹⁴ cm⁻³ |
+| **ETL (Electron Transport Layer)** | ZnSe | Thickness: 0.01 μm <br> Donor Density (N<sub>D</sub>): 5 × 10¹⁷ cm⁻³ |
 | **Back Contact Work Function** | Al | 5.8 eV |
 | **Operating Temperature** | — | 275 K |
+
 
 ---
 
