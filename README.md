@@ -19,7 +19,6 @@ Through rigorous computational tuning, this specific architecture achieved a **s
 ### Device Parameter Specifications
 The table below highlights the specific physical parameters determined during the final optimization phase:
 
-
 | Component / Parameter | Material / Layer | Optimized Value |
 | :--- | :--- | :--- |
 | **Semiconductor Layer** | GaAs | Included |
@@ -29,7 +28,6 @@ The table below highlights the specific physical parameters determined during th
 | **Back Contact Work Function** | Al | 5.8 eV |
 | **Operating Temperature** | — | 275 K |
 
-
 ---
 
 ## Repository Structure
@@ -37,20 +35,23 @@ The table below highlights the specific physical parameters determined during th
 ```text
 CsBi3I10-Heterojunction-Solar-Cell/
 │
-├── README.md               
+├── README.md               # Project documentation
 │
 ├── scaps/
-│   ├── input-parameters/   
-│   └── simulation-results/ 
+│   ├── input-parameters/   # Input device configuration properties (.aps files/values)
+│   └── simulation-results/ # Raw or compiled numerical text exports from SCAPS
 │
 ├── data/
-│   └── ml-dataset.csv     
+│   └── ml-dataset.csv      # Compiled dataset containing the 200 data points
 │
 ├── machine-learning/
-│   ├── random-forest/      
-│   └── shap-analysis/      
-└── figures/                
+│   ├── random-forest/      # Python scripts/notebooks for regression training
+│   └── shap-analysis/      # Global and local feature importance evaluation scripts
+│
+└── figures/                # Selected graphical visualizations and plots
+```
 
+---
 
 ## Machine Learning Workflow
 
@@ -85,6 +86,13 @@ If you use the data, scripts, or configuration parameters hosted in this reposit
   doi     = {10.1016/j.solener.2025.113539}
 }
 ```
+
+---
+
+## Notes
+
+This repository is strictly intended to support scientific open-source reproducibility. The full-text published journal article is protected under publisher copyright and is **not** distributed within this repository. Only shareable computational inputs, simulation data logs, python analytics code, and descriptive assets are included.
+
 
 ---
 
